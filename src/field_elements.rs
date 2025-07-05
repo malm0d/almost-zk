@@ -1,6 +1,8 @@
 use ark_ff::{PrimeField};
 
 /// Converts integer constraints to field elements.
+/// # Returns
+/// A vector of generic type implementing the `PrimeField` trait
 pub fn constraint_to_field_elements<Fp: PrimeField>(
     constraint: &[i64],
 ) -> Vec<Fp> {
