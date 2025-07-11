@@ -283,7 +283,7 @@ G_2 \\
 \end{array} \right]
 ```
 
-That is for every row $k$, we take the pairing of each $G1$ and $G2$ point on both sides of the equality and compare them:
+That is for every row $k$, we take the pairing of each $G_1$ and $G_2$ point on both sides of the equality and compare them:
 
 ```math
 e \left((\sum_{i=1}^m L_{k,i} \cdot a_i)G_1, \ (\sum_{i=1}^m R_{k,i} \cdot a_i)G_2 \right) \ 
