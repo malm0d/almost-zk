@@ -25,7 +25,3 @@ impl Witness {
         Self { a }
     }
 }
-
-//Simple (almost) ZKP from R1CS in Rust
-
-
