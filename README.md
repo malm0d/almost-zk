@@ -296,3 +296,6 @@ Each pairing on both sides of the equality evaluates to an element in the target
 ```math
 (L_k \cdot a) \cdot (R_k \cdot a) = (O_k \cdot a) \quad \text{for every row} \ k
 ```
+
+## References
+[RareSkills Book of ZK](https://www.rareskills.io/zk-book), where all the good stuff is. 
