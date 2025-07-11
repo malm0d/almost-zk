@@ -59,7 +59,7 @@ fn build_witness(x: i64, y: i64) -> Witness {
     Witness::new(vec![1, z, x, y, v1, v2, v3, v4])
 }
 
-// Prove knowledge of x and y such that z = 3x^(2)y - xy + 2y^2 + 5
+// Prove knowledge of x and y such that z = 2x^{3} + 4xy^{2} - xy + 5
 fn main() {
     let x: i64 = 3;
     let y: i64 = 2;
